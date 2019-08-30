@@ -442,24 +442,9 @@
 	.column3,
 	.column4
 	{
+		display: inline-block;
+		vertical-align: bottom;
 		width: 282px;
-	}
-	
-	.column1,
-	.column2
-	{
-		float: left;
-		margin-right: 24px;
-	}
-	
-	.column3
-	{
-		float: left;
-	}
-	
-	.column4
-	{
-		float: right;
 	}
 
 /*********************************************************************************/
