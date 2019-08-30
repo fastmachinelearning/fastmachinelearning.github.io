@@ -415,6 +415,7 @@
 
 	#featured-wrapper
 	{
+		margin: 100px;
 		overflow: hidden;
 		padding: 5em 0em;
 		background: #FFF;
@@ -467,7 +468,7 @@
 
 	#portfolio-wrapper
 	{
-		padding: 6em 0em;
+		padding: 0em 0em;
 	}
 	
 	#portfolio
@@ -478,15 +479,21 @@
 	
 	#portfolio img
 	{
-		margin: 0;
+		margin: 0 0 10px 0;
 		padding: 0;
+/*		border-bottom: 4px solid #7C7C7C;
+		border-top: 4px solid #7C7C7C;
+		border-right: 4px solid #DADADA;
+		border-left: 4px solid #DADADA;	*/	
 	}
 	
 	#portfolio .box
 	{
 		padding: 30px;
+		/*height: 500px;*/
 		background: #FFF;
-		border-bottom: 2px solid #7C7C7C;
-		border-right: 1px solid #DADADA;
-		border-left: 1px solid #DADADA;
+		border-bottom: 4px solid #7C7C7C;
+		border-top: 4px solid #7C7C7C;		
+		border-right: 4px solid #DADADA;
+		border-left: 4px solid #DADADA;
 	}
