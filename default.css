@@ -349,6 +349,12 @@
 		float: left;
 		width: 638px;
 	}
+
+	#content2
+	{
+		float: left;
+		width: 976px;
+	}	
 	
 	#content .title
 	{
@@ -376,6 +382,11 @@
 		float: right;
 		width: 538px;
 	}
+	#sidebar2
+	{
+		float: right;
+		width: 200px;
+	}	
 
 /*********************************************************************************/
 /* Footer                                                                        */
