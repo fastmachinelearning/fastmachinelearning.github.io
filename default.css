@@ -126,6 +126,7 @@
 		margin: 0em 0 3em 0;
 		padding-top: 1em;
 		text-align: center;
+		padding-left: 0;
 	}
 	
 	ul.contact li
@@ -453,24 +454,9 @@
 	.column3,
 	.column4
 	{
+		display: inline-block;
+		vertical-align: bottom;
 		width: 282px;
-	}
-	
-	.column1,
-	.column2
-	{
-		float: left;
-		margin-right: 24px;
-	}
-	
-	.column3
-	{
-		float: left;
-	}
-	
-	.column4
-	{
-		float: right;
 	}
 
 /*********************************************************************************/
