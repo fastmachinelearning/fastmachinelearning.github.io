@@ -221,15 +221,15 @@
 	.button
 	{
 		display: inline-block;
-		margin: 1em 0em;
-		padding: 1em 3em 1em 3em;
+		margin: 0.1em 0em;
+		padding: 1em 1em 1em 1em;
 		background: #3f3f3f;
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		text-align: center;
 		text-transform: uppercase;
 		font-weight: 400;
-		font-size: 0.90em;
+		font-size: 0.80em;
 		color: #FFF;
 	}
 	
