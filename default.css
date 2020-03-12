@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #F6F4F3;
+		background: #FFFFFF;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -486,8 +486,8 @@
 	
 	#portfolio .box
 	{
-		padding: 30px;
-		/*height: 500px;*/
+		padding: 20px;
+		height: 250px;
 		background: #FFF;
 		border-bottom: 4px solid #7C7C7C;
 		border-top: 4px solid #7C7C7C;		
