@@ -1,0 +1,53 @@
+title: Fast Machine Learning Lab
+short_title: FastML Lab
+email: fml@fastmachinelearning.org
+
+one_liner: Real-time and accelerated ML for fundamental sciences
+description: >
+  Fast ML Lab is a research collective of physicists, engineers, and computer scientists
+  interested in deploying machine learning algorithms for unique and challenging scientific applications. Our projects
+  range from real-time, on-detector and low latency machine learning applications to high-throughput
+  heterogeneous computing big data challenges. We are interested in deploying sophisticated machine
+  learning algorithms to advance the exploration of fundamental physics from the world's biggest colliders
+  to the most intense particle beams to the cosmos.
+news_byline: >
+  We anticipate our next workshop to take place in spring 2022. Our [virtual 2020 workshop](https://indico.cern.ch/event/924283/) 
+  was hosted by Southern Methodist University from November 30 - December 3, 2020, and presented new applications and results. 
+  Our first [2019 workshop](https://indico.cern.ch/event/822126/) was held at Fermilab.
+
+collaboration:
+  byline: We are a community that fosters knowledge transfer of accelerated and real-time artificial intelligence applications to fundamental science. By joining the community, you agree to abide by our codes of conduct and policies of collaboration.
+
+  
+
+navbar:
+  logo: /images/fml.png
+  links:
+    - name: Home
+      link: "#home" # Note that for links to autoscroll to anchors on the main page, only the #anchor is needed (no preceding slash)
+      autoscroll: true
+    - name: News
+      link: "#news"
+      autoscroll: true
+    - name: Papers/Talks
+      link: "#projects"
+      autoscroll: true
+    - name: People
+      link: "#people"
+      autoscroll: true
+    - name: Collaboration
+      link: "#collaboration"
+      autoscroll: true
+    - name: Contact
+      link: "mailto:fml@fastmachinelearning.org"
+      autoscroll: false
+
+footer:
+  links:
+    - name: HLS4ML Homepage
+      link: https://fastmachinelearning.org/hls4ml/
+    - name: GitHub Repositories
+      link: https://github.com/fastmachinelearning
+
+
+

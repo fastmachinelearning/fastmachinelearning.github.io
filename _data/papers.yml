@@ -1,0 +1,18 @@
+- 'Real-time Artificial Intelligence for Accelerator Control: A Study at the Fermilab Booster, [arXiv:2011.07371](https://arxiv.org/abs/2011.07371).'
+- A reconfigurable neural network ASIC for detector front-end data compression at the HL-LHC, [IEEE Trans. Nucl. Sci. 68, 2179 (2021)](https://10.1109/TNS.2021.3087100).
+- Autoencoders on FPGAs for real-time, unsupervised new physics detection at 40 MHz at the Large Hadron Collider, [arXiv:2108.03986](https://arxiv.org/abs/2108.03986).
+- Accelerating Recurrent Neural Networks for Gravitational Wave Experiments, [ASAP Conference 2021](https://doi.org/10.1109/ASAP52443.2021.00025).
+- 'Fast convolutional neural networks on FPGAs with hls4ml, [Mach. Learn.: Sci. Technol. 2, 045015 (2021)](https://doi.org/10.1088/2632-2153/ac0ea1).'
+- MLPerf Tiny Benchmark, [NeurIPS 2021 Datasets and Benchmarks Track](https://arxiv.org/abs/2106.07597).
+- 'hls4ml: An Open-Source Codesign Workflow to Empower Scientific Low-Power Machine Learning Devices, [tinyML Reserach Symposium 2021](https://arxiv.org/abs/2103.05579).'
+- GPU-accelerated machine learning inference as a service for computing in neutrino experiments, [arXiv:2009.04509](https://arxiv.org/abs/2009.04509) [physics.comp-ph]. 
+- Distance-Weighted Graph Neural Networks on FPGAs for Real-Time Particle Reconstruction in High Energy Physics, [arXiv:2008.03601](https://arxiv.org/abs/2008.03601) [physics.comp-ph]. 
+- GPU coprocessors as a service for deep learning inference in high energy physics, [arXiv:2007.10539](https://arxiv.org/abs/2007.10359) [physics.comp-ph]. 
+- Ultra Low-latency, Low-area Inference Accelerators using Heterogeneous Deep Quantization with QKeras and hls4ml, [arXiv:2006.10159](https://arxiv.org/abs/2006.10159) [physics.ins-det]. 
+- Compressing deep neural networks on FPGAs to binary and ternary precision with hls4ml, [MLST (2020)](https://doi.org/10.1088/2632-2153/aba042). 
+- Fast inference of Boosted Decision Trees in FPGAs for particle physics, [JINST 15, P05026 (2020)](https://doi.org/10.1088/1748-0221/15/05/p05026). 
+- ESP4ML&#58; Platform-Based Design of Systems-on-Chip for Embedded Machine Learning, [ DATE Conference 2020 ](https://sld.cs.columbia.edu/pubs/giri_date20.pdf).
+- Accelerated Machine Learning as a Service for Particle Physics Computing, [NeurIPS ML4PS Workshop 2019](https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_64.pdf). 
+- Low-latency machine learning inference on FPGAs, [NeurIPS ML4PS Workshop 2019](https://ml4physicalsciences.github.io/files/NeurIPS_ML4PS_2019_74.pdf). 				
+- Fast inference of deep neural networks in FPGAs for particle physics, [JINST 13, P07027 (2018)](https://doi.org/10.1088/1748-0221/13/07/P07027). 
+- FPGA-accelerated machine learning inference as a service for particle physics computing, [Comput. Softw. Big Sci. 3, 13 (2019)](https://doi.org/10.1007/s41781-019-0027-2) 

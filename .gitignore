@@ -1,2 +1,4 @@
+_site/
+.vscode
 *~
-.DS_Store
+.jekyll-metadata

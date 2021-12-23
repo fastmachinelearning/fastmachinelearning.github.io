@@ -1,0 +1,23 @@
+{% include head.html %}
+
+<body class="bg-light">
+  {% include nav.html %}
+  <div class="bg-light container-fluid">
+    <div class="px-4 py-5 my-5 " >
+      <h1 class="display-5 fw-bold text-center">{{page.title}}</h1>
+      <hr>
+      <br>
+      <div class="col-lg-6 mx-auto">
+        {{page.content | markdownify}}
+        {% if page.external_link != "" and page.external_link != null %}
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="{{page.external_link}}" class="btn btn-primary">Learn More</a>
+        </div>
+        {%endif%}
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+
+
+</body>
