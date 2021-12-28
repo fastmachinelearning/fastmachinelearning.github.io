@@ -38,6 +38,9 @@ navbar:
     - name: Collaboration
       link: "#collaboration"
       autoscroll: true
+    - name: Sponsors
+      link: '#sponsors'
+      autoscroll: true
     - name: Contact
       link: "mailto:fml@fastmachinelearning.org"
       autoscroll: false
@@ -50,4 +53,4 @@ footer:
       link: https://github.com/fastmachinelearning
 
 
-
+exclude: ["CNAME", "license.txt", "README.md"]
