@@ -38,7 +38,7 @@ navbar:
     - name: Collaboration
       link: "#collaboration"
       autoscroll: true
-    - name: Sponsors
+    - name: Sponsors/Partners
       link: '#sponsors'
       autoscroll: true
     - name: Contact

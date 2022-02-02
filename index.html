@@ -139,6 +139,19 @@ title: Home
 				{% endfor %}
                 
             </div>
+            <br/>
+            
+            <h1 class="pt-5 display-5 fw-bold">Partners</h1>
+            <div class="col-lg-6 mx-auto text-center">
+                <p class="lead mb-4">We collaborate with the following organizations:</p>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                
+				{% for org in site.data.partners %}
+				<img src="{{ site.baseurl }}{{ org.image }}" style="padding:10px; max-height: 120px; max-width: 120px;" alt="{{ org.name }}"/>
+				{% endfor %}
+                
+            </div>
         </div>
     </div>
     {% include footer.html %}
