@@ -60,3 +60,8 @@ Note that this will **not** render markdown syntax. Entries for both `name` and 
 - name: National Science Foundation
   image: /images/nsf.png
 ```
+
+## Test the Site Locally
+To test the site locally, install Jekyll along with the Jekyll github-pages extension (doing so via conda is recommended) and run the following command: `jekyll serve`
+
+ This will start a local development web server to preview the site. Note that updating the config files may require restarting this server to take effect.
