@@ -1,0 +1,26 @@
+<nav id="navbar-global" class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+	<div class="container justify-content-between">
+		<a class="navbar-brand" href="{{ site.baseurl }}/">
+			<img src="{{ site.baseurl }}{{ site.navbar.logo }}" alt="" width="30" height="24" class="d-inline-block align-text-top">
+			&nbsp;{{site.title}}
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+			<ul class="navbar-nav">
+				{% for navitem in site.navbar.links %}
+				<li class="nav-item">
+					{% if page.title != 'Home' && navitem.autoscroll %}
+					<a class="nav-link" href="{{ site.baseurl }}/{{ navitem.link }}">{{ navitem.name }}</a>
+					{% else %}
+					<a class="nav-link" href="{{ navitem.link }}">{{ navitem.name }}</a>
+					{% endif %}
+				</li>
+				{% endfor %}
+
+				</li>
+			</ul>
+		</div>
+</nav>

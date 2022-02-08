@@ -1,174 +1,159 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
+---
+title: Home
+---
 
-Name       : TwoColours
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130811
+{% include head.html %}
 
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<link rel='icon' href='images/fml2.png' type='image/png'/>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Fast Machine Learning Lab</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<body class="bg-light" data-bs-spy="scroll" data-bs-target="#navbar-global">
+    {% include nav.html %}
+    <div class="bg-dark container-fluid">
+        <div class="container col-xxl-8 px-4 py-5 " id="home">
+            <div class="row flex-lg-row-reverse align-items-center justify-content-center g-5 py-5">
+                <div class="col-8 col-sm-8 col-lg-6">
+                    <img src="{{ site.baseurl }}/images/fml2.png" class="d-block mx-lg-auto img-fluid" alt="Test" width="350" height="250"
+                        loading="lazy">
+                </div>
+                <div class="col-lg-6 text-white">
+                    <h1 class="display-5 fw-bold lh-1 mb-3"> {{ site.short_title }}</h1>
+                    <h4 class="lh-1 mb-3">{{site.one_liner}}</h4>
+                    <p class="lead">{{ site.description | markdownify }}</p>
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light container-fluid">
+        <div class="px-4 my-5 " id="news">
+            <h1 class="display-5 fw-bold text-center">News</h1>
+            <div class="col-lg-6 mx-auto text-center">
+                <p class="lead mb-4">{{ site.news_byline | markdownify }}</p>
+            </div>
+            <div class="col-lg-5 mx-auto ">
+                {% for post in site.posts %}
 
-</head>
-<body>
-<div id="header">
-	<div id="menu" class="container">
-		<ul>
-			<li class="current_page_item"><a href="index.html" accesskey="1" title="">Homepage</a></li>
-			<li><a href="projects.html" accesskey="2" title="">Projects</a></li>
-			<li><a href="people.html" accesskey="3" title="">People</a></li>
-			<li><a href="collaboration.html" accesskey="4" title="">Collaboration</a></li>
-			<li><a href="mailto:fml@fastmachinelearning.org" accesskey="5" title="">Contact Us</a></li>
-		</ul>
-	</div>
-</div>
-<div id="logo" class="container">
-	<h1><a href="#" class="icon icon-cogs"><span>Fast Machine Learning Lab</span></a></h1>
-</div>
-<div id="page" class="container">
-	<div id="content">
-		<div class="title">
-			<h2>about the Fast ML Lab</h2>
-			<span class="byline">Real-time and accelerated ML for fundamental sciences</span>
-		</div>
-		<p>Fast ML Lab is a research collective of physicists, engineers, and computer scientists interested in deploying machine learning algorithms for unique and challenging scientific applications.  Our projects range from real-time, on-detector and low latency machine learning applications to high-throughput heterogeneous computing big data challenges.  We are interested in deploying sophisticated machine learning algorithms to advance the exploration of fundamental physics from the world's biggest colliders to the most intense particle beams to the cosmos. </p>
-	</div>
-	<div id="sidebar"><a href="#" class="image image-centered"><img src="images/fml2.png" height="350" alt="" /></a></div>
-</div>
-<!--------------------------------------------------------------------------------->
-<div id="portfolio-wrapper">
-	<div id="portfolio" class="container">
-		<div class="major">
-			<h2>Learn more!</h2>
-			<span class="byline">
-			  We anticipate our next workshop to take place in spring 2022.
-				Our <a href="https://indico.cern.ch/event/924283/">virtual 2020 workshop</a> was hosted by Southern Methodist University from November 30 - December 3, 2020, and presented new applications and results.
-				Our first <a href="https://indico.cern.ch/event/822126/">2019 workshop</a> was held at Fermilab.
-				<!-- Read a short <a href="images/coproc_whitepaper_v0.pdf">white paper</a> about how accelerated ML can be applied across many fields of fundamental physics! Our first <a href="https://indico.cern.ch/event/822126/"> international workshop </a> was hosted at Fermilab in September 2019.  Lookout for our 2020 workshop announcement!  -->
-			</span>
-		</div>
-		<div class="column1">
-			<a href="#" class="image image-full"><img src="images/CCSepOct21_AI_frontis-635x333.jpeg" width=282 alt="" /></a>
-			<div class="box" height=375>
-				<p>An article in the CERN Courier on "Hunting anomalies with an AI trigger"</p>
-				<a href="https://cerncourier.com/a/hunting-anomalies-with-an-ai-trigger/" class="button">CERN Courier</a>
-				<a href="https://www.nature.com/natmachintell/volumes/3/issues/8" class="button">Nat. Mach. Intell.</a>
-				<a href="https://home.cern/news/news/physics/speeding-machine-learning-particle-physics" class="button">CERN News</a>
-			</div>
-		</div>
-			<div class="column2">
-				<a href="#" class="image image-full"><img src="images/Inline_Blink_and_its_gone.jpg" width=282 alt="" /></a>
-				<div class="box" height=375>
-					<p>Symmetry Magazine article titled "Blink and it's gone"</p>
-					<a href="https://www.symmetrymagazine.org/article/blink-and-its-gone" class="button">Symmetry Magazine</a>
-				</div>
-		</div>
-				<div class="column3">
-					<a href="#" class="image image-full"><img src="images/mlperf.png" width=282 alt="" /></a>
-					<div class="box" height=375>
-						<p>hls4ml team submits results for the first Tiny MLPerf Inference Benchmark</p>
-						<a href="https://mlcommons.org/en/news/mlperf-tiny-v05/" class="button">Tiny MLPerf</a>
-					</div>
-				</div>
-		<div class="column4">
-			<a href="#" class="image image-full"><img src="images/hls4ml.png" width=282 alt="" /></a>
-			<div class="box" height=375>
-				<p>hls4ml: an open-source code framework for translating machine learning algorithms directly into FPGA firmware</p>
-				<a href="https://fastmachinelearning.org/hls4ml/" class="button">hls4ml home</a>
-			</div>
-		</div>
-		<div class="column1">
-			<a href="#" class="image image-full"><img src="images/xilinx.png" width=282 alt="" /></a>
-			<div class="box" height=375>
-				<p>A story from Xilinx on how we use high level synthesis to find the best events at the Large Hadron Collider</p>
-				<a href="https://www.xilinx.com/publications/powered-by-xilinx/cerncasestudy-final.pdf" class="button">Visit Xilinx</a>
-			</div>
-		</div>
-		<div class="column2">
-			<a href="#" class="image image-full"><img src="images/azure.png" width=282 alt="" /></a>
-			<div class="box" height=375>
-				<p>Microsoft Azure collaboration deploying FPGAs to accelerate ML to prototype computing solutions for future big science experiments</p>
-				<a href="https://customers.microsoft.com/en-us/story/724137-fermilab-led-team-tests-azure-ai-for-particle-physics-data-challenge" class="button">Visit Microsoft</a>
-				<a href="https://news.fnal.gov/2019/08/a-glimpse-into-the-future-accelerated-computing-for-accelerated-particles/" class="button">Fermi News</a>
-				<a href="http://news.mit.edu/2019/boosting-computing-power-for-future-particle-physics-mit-lns-0819" class="button"Visit>MIT News</a>
-			</div>
-		</div>
-		<div class="column3">
-			<a href="#" class="image image-full"><img src="images/zenuity.png" width=282 alt="" /></a>
-			<div class="box" height=375>
-				<p>Zenuity has become the first automotive to team up with CERN to develop ML for autonomous drive cars</p>
-				<a href="https://www.prnewswire.co.uk/news-releases/zenuity-and-cern-team-up-on-fast-machine-learning-for-autonomous-driving-855081160.html" class="button">See the press</a>
-			</div>
-		</div>
-	</div>
-</div>
+                <div class="row">
+                    <div class="card m-2 post-preview">
+                        <div class="row g-0">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <img src="{{ site.baseurl }}{{ post.image }}" class="img-fluid rounded-start" alt="{{post.title}}"
+                                    style="max-width: 100%;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">{{post.title}}</h4>
+                                    <p class="card-text">{{post.description}}</p>
+                                    <div class="d-flex justify-content-center"><a href="{{post.external_link}}"
+                                            class="btn btn-primary">Learn More</a></div>
+                                </div>
+                            </div>
+                        </div>
 
-<div id="featured-wrapper">
-	<div id="featured" class="container">
-		<div class="major">
-			<h2>Explore</h2>
-			<span class="byline">Find out about us, our projects, and how we work together</span>
-		</div>
-		<div class="column1">
-			<span class="icon icon-git-fork"></span>
-			<div class="title">
-				<h2> <a href="projects.html"> Papers,Talks,Videos </a></h2>
-				<span class="byline"></span>
-			</div>
-		</div>
-		<div class="column2">
-			<span class="icon icon-user"></span>
-			<div class="title">
-				<h2> <a href="people.html"> People </a> </h2>
-				<span class="byline"></span>
-			</div>
-		</div>
-		<div class="column3">
-			<span class="icon icon-building"></span>
-			<div class="title">
-				<h2> <a href="collaboration.html"> Join </a></h2>
-				<span class="byline"></span>
-			</div>
-		</div>
-		<div class="column4">
-			<span class="icon icon-envelope"></span>
-			<div class="title">
-				<h2><a href="mailto:fml@fastmachinelearning.org"> Contact </a></h2>
-				<span class="byline"></span>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="featured-wrapper">
-	<div id="contact" class="container">
-		<div class="major">
-			<h2>Support</h2>
-			<span class="byline">We are graciously funded by these organizations</span> <br>
-			<a href="#"><img src="images/erc.png" width="120px" alt="" /></a>
-			<a href="#"><img src="images/doe.png" width="200px" alt="" /></a>
-			<a href="#"><img src="images/nsf.png" width="120px" alt="" /></a>
-			<a href="#"><img src="images/i2.png" width="180px" alt="" /></a>
-			<a href="#"><img src="images/iris-hep.png" width="180px" alt="" /></a>
-			<a href="#"><img src="images/darpa.jpg" width="180px" alt="" /></a>
-		</div>
-	</div>
-</div>
-<div id="copyright" class="container">
-	<p>&copy; Fast Machine Learning Lab 2021. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
-</div>
+                    </div>
+                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="bg-primary container-fluid">
+        <div class="px-4 pt-5 my-5 text-center text-light" id="projects">
+            <h1 class="display-5 fw-bold">Papers</h1>
+            <div class="col-lg-8 text-start mx-auto">
+                <ul class="citation-list">
+                    {% for paper in site.data.papers %}
+                    <li class="citation-list-item lead"> {{ paper | markdownify }} </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="px-4 pt-2 pb-5 my-5 text-center text-light">
+            <h1 class="display-5 fw-bold">Talks</h1>
+            <div class="col-lg-8 text-start mx-auto">
+                <ul class="citation-list">
+                    {% for talk in site.data.talks %}
+                    <li class="citation-list-item lead"> {{ talk | markdownify }} </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light container-fluid">
+        <div class="px-4 py-5 my-5 text-center" id="people">
+            <h1 class="display-5 fw-bold pb-5">People</h1>
+            <div class="col-lg-6 mx-auto">
+                <hr>
+                {% assign sorted_orgs = site.data.people | sort %}
+                {% for org in sorted_orgs %}
+                <h4> {{ org[0] | replace: '_', ' ' | upcase }} </h4>
+                {% assign sorted_people = org[1] | sort %}
+                {% for person in sorted_people %}
+                <a href="javascript:showhide('{{ org[0] | replace: ' ', '_' }}-{{ person[0] | replace: ' ', '_' }}')">
+                    {{ person[1].name }}</a>
+                    ({% if person[1].degree != "" and person[1].degree != null %}{{person[1].degree }},
+                {% endif %}
+                {{ person[1].field }});&nbsp;
+                {% endfor %}
+
+                {% for person in sorted_people %}
+                <div id="{{ org[0] | replace: ' ', '_' }}-{{ person[0] | replace: ' ', '_' }}" style="display:none;">
+                    <br>
+                    <ul>
+                        <li> <b>Position</b>: {{ person[1].position }} </li>
+                        <li> <b>Interests</b>: {{ person[1].interests }} </li>
+                    </ul>
+                    {% if person[1].image != "" and person[1].image != null %}
+                    <a href="{{ person[1].image }}" class="image image-centered"><img src="{{ person[1].image }}"
+                            height="300" alt="" /></a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+                <hr>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="bg-primary container-fluid">
+        <div class="px-4 py-5 my-5 text-center text-light" id="collaboration">
+            <h1 class="display-5 fw-bold">Collaboration</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">{{site.collaboration.byline}}</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <a href="{{ site.baseurl }}/collaboration.html" class="btn btn-primary btn-lg px-4 gap-3">Code of Conduct</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-light container-fluid">
+        <div class="px-4 py-5 my-5 text-center" id="sponsors">
+            <h1 class="pb-4 display-5 fw-bold">Sponsors and Partners</h1>
+            <div class="col-lg-6 mx-auto text-center">
+                <p class="lead mb-4">We are graciously funded by the following organizations:</p>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                
+				{% for org in site.data.sponsors %}
+				<img src="{{ site.baseurl }}{{ org.image }}" style="padding:10px; max-height: 120px; max-width: 120px;" alt="{{ org.name }}"/>
+				{% endfor %}
+                
+            </div>
+            <br/>
+            <div class="col-lg-6 mx-auto text-center">
+                <p class="lead mb-4">And are collaborating with these organizations:</p>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                
+				{% for org in site.data.partners %}
+				<img src="{{ site.baseurl }}{{ org.image }}" style="padding:10px; max-height: 120px; max-width: 120px;" alt="{{ org.name }}"/>
+				{% endfor %}
+                
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    <script>
+
+    </script>
 </body>
-</html>

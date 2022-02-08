@@ -1,0 +1,28 @@
+:root {
+    --charcoal: #2c2c2c;
+    --almost-black: #040404;
+    --light-grey: #e0e0e0;
+    --medium-grey: #afafaf;
+}
+
+
+
+.bg-primary {
+    background-color: var(--charcoal) !important;
+}
+
+.bg-dark {
+    background-color: var(--almost-black) !important;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.citation-list {
+    list-style-type:circle;
+}
+.citation-list-item a{
+    color: var(--medium-grey);
+}

@@ -1,0 +1,10 @@
+- name: European Research Council
+  image: /images/erc.png
+- name: Department of Energy
+  image: /images/doe.png
+- name: National Science Foundation
+  image: /images/nsf.png
+- name: Internet 2
+  image: /images/i2.png
+- name: DARPA
+  image: /images/darpa.jpg
