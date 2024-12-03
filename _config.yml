@@ -12,12 +12,10 @@ description: >
   to the most intense particle beams to the cosmos.
 news_byline: >
   It's official! The registration and call for abstracts for the [2022 workshop](https://indico.cern.ch/event/1156222/) is now open.  It will be a hybrid workshop hosted by Southern Methodist University from Oct 3 -- Oct 6, 2022.
-  To see past editions, visit our [virtual 2020 workshop](https://indico.cern.ch/event/924283/) and [2019 workshop](https://indico.cern.ch/event/822126/) webpages. 
+  To see past editions, visit our [virtual 2020 workshop](https://indico.cern.ch/event/924283/) and [2019 workshop](https://indico.cern.ch/event/822126/) webpages.
 
 collaboration:
   byline: We are a community that fosters knowledge transfer of accelerated and real-time artificial intelligence applications to fundamental science. By joining the community, you agree to abide by our codes of conduct and policies of collaboration.
-
-  
 
 navbar:
   logo: /images/fml.png
@@ -38,7 +36,7 @@ navbar:
       link: "#collaboration"
       autoscroll: true
     - name: Sponsors/Partners
-      link: '#sponsors'
+      link: "#sponsors"
       autoscroll: true
     - name: Contact
       link: "mailto:fml@fastmachinelearning.org"
@@ -48,8 +46,9 @@ footer:
   links:
     - name: HLS4ML Homepage
       link: https://fastmachinelearning.org/hls4ml/
+    - name: SuperSONIC Homepage
+      link: https://fastmachinelearning.org/SuperSONIC/
     - name: GitHub Repositories
       link: https://github.com/fastmachinelearning
-
 
 exclude: ["CNAME", "license.txt", "README.md"]
