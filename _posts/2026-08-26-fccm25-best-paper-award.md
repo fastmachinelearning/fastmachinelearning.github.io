@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "FCCM'25: Best Paper Award"
+title: "FCCM'26: Best Paper Award"
 description: "Paper: HGQ-LUT: Fast LUT-Aware Training and Efficient
   Architectures for DNN Inference"
 external_link: https://arxiv.org/abs/2604.22293
