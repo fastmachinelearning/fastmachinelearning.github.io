@@ -10,6 +10,7 @@ summary: >-
   Models reuse the same coarse-grained reconfigurable array (CGRA) across layers, allowing the hardware to support networks that are larger than its on-chip storage.
 submitter: Abarajithan Gnaneswaran
 domain: Transpiler
+image: /images/crga4ml.png
 review_status: draft
 ---
 This tutorial follows the [repository’s quick start](https://github.com/KastnerRG/cgra4ml#quick-start):
