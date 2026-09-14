@@ -8,7 +8,7 @@ summary: >-
   It combines a configurable accelerator, SystemVerilog RTL, C firmware, and system integration scripts in one workflow.
 
   Models reuse the same coarse-grained reconfigurable array (CGRA) across layers, allowing the hardware to support networks that are larger than its on-chip storage.
-submitter: "[Abarajithan Gnaneswaran](https://abapages.com/#contact-me)"
+submitter: Abarajithan Gnaneswaran (https://abapages.com/#contact-me)
 domain: Transpiler
 image: /images/crga4ml.png
 review_status: draft
